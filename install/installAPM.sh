@@ -17,11 +17,12 @@ function apterror() {
 echo -e "\n\nInstall APM\n\n"
 sudo apt-get install apache2
 sudo apt-get install mysql-server mysql-client
-sudo apt-get install php libapache2-mod-php php-xml php-gd php-mysql
+sudo apt-get install php
 apterror
 
-echo -e "\n\nConnect php and mysql\n\n"
-sudo apt-get install php-mbstring php-gettext
+echo -e "\n\nInstall package for connecting apache and php\n"
+echo -e "\n\nInstall package for connecting php and mysql\n\n"
+sudo apt-get install libapache2-mod-php php-xml php-gd php-mysql php-mbstring php-gettext
 apterror
 
 echo -e "\n\nStart apache2 and mysql\n\n"
