@@ -8,10 +8,11 @@ function apterror() {
 	fi
 }
 
-echo -e "\n\nUpdate, Upgrade\n\n"
-sudo apt-get update
-sudo apt-get upgrade
-apterror
+# You want
+# echo -e "\n\nUpdate, Upgrade\n\n"
+# sudo apt-get update
+# sudo apt-get upgrade
+# apterror
 
 echo -e "\n\nInstall APM\n\n"
 sudo apt-get install apache2
