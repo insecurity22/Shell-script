@@ -1,5 +1,5 @@
 #! /bin/bash
-# Install Apache, Php, MySQL"
+# Install Apache, Php, MySQL
 
 function apterror() {
 	if [ "$ERR_MSG" != "" ]; then
