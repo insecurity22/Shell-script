@@ -1,3 +1,0 @@
-start example
-chmod +x installAPM.sh
-./installAPM.sh
