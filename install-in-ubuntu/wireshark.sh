@@ -10,3 +10,6 @@ function apterror() {
 
 sudo apt-get install wireshark
 apterror
+
+# start
+# sudo wireshark
