@@ -8,6 +8,7 @@ sudo apt-get install pycharm-community
 
 echo -e "\n\nStart Pycharm\n\n"
 pycharm-community
+
 # 
 #
 # Terminal
