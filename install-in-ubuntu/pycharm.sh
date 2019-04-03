@@ -6,8 +6,8 @@ sudo add-apt-repository ppa:mystic-mirage/pycharm
 sudo apt-get update
 sudo apt-get install pycharm-community
 
-# start pycharm
-# pycharm-community
+echo -e "\n\nStart Pycharm\n\n"
+pycharm-community
 # 
 #
 # Terminal
