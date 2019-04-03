@@ -10,5 +10,8 @@ sudo apt-get install pycharm-community
 # pycharm-community
 # 
 #
-# accept
+# Terminal
 # http://jalbum.com/board_fasH18/38263
+
+# Internet
+# https://webnautes.tistory.com/913
