@@ -3,4 +3,5 @@
 
 # sudo apt-get update
 sudo apt-get install sqlmap
-sqlmap
+sqlmap -h
+sqlmap -hh
