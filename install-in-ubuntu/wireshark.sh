@@ -9,7 +9,8 @@ function apterror() {
 }
 
 sudo apt-get install wireshark
+y
 apterror
 
 # start
-# sudo wireshark
+sudo wireshark
