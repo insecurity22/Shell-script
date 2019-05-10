@@ -1,3 +1,3 @@
 # start example
-chmod +x installAPM.sh<br>
+chmod +x apm.sh<br>
 ./apm.sh
