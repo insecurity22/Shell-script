@@ -38,7 +38,7 @@
 
         Press <enter> to keep the current choice[*], or type selection number: 2
         update-alternatives: using /usr/bin/python3.5 to provide /usr/bin/python (python) in manual mode
-        root@ubuntu:/home/bogyeong# python --version
+        $ python --version
         Python 3.5.2
 
 
