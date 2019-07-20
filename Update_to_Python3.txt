@@ -1,45 +1,45 @@
 # Check python version
-    $ python --version
-    Python 2.7.12
+        $ python --version
+        Python 2.7.12
 
 # Various versions of Python executables
-    $ ls /usr/bin/ | grep python
-    python
-    python2
-    python2.7
-    python2.7-config
-    python2-config
-    python3
-    python3.5
-    python3.5m
-    python3m
-    python-config
+        $ ls /usr/bin/ | grep python
+        python
+        python2
+        python2.7
+        python2.7-config
+        python2-config
+        python3
+        python3.5
+        python3.5m
+        python3m
+        python-config
     
 # Function of update-alternatives : version control
 # ex) 현재 /usr/bin/python => /usr/bin/python2.7 를 가리키고 있습니다.
 #     파이썬3.6로 변경하려면 /usr/bin/python => /usr/bin/python3.6 를 가리키도록 변경해야 합니다.
 #     아래와 같이 입력하면 2.7과 3.6버전이 update-alternatives에 등록됩니다.
 #
-    $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
-    $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
+        $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+        $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
 #
 # --install 옵션은 심볼릭 링크를 만들기 위해 여러 인자를 사용한다. 그 중 마지막의 숫자는 우선순위를 의미한다. 
 # 메뉴얼로 선택하지 않는다면 이 숫자가 높은 alternative가 사용된다.
 
 # 
-    $ sudo update-alternatives --config python
-    There are 2 choices for the alternative python (providing /usr/bin/python).
+        $ sudo update-alternatives --config python
+        There are 2 choices for the alternative python (providing /usr/bin/python).
 
-      Selection    Path                Priority   Status
-    ------------------------------------------------------------
-    * 0            /usr/bin/python2.7   2         auto mode
-      1            /usr/bin/python2.7   2         manual mode
-      2            /usr/bin/python3.5   1         manual mode
-      
-    Press <enter> to keep the current choice[*], or type selection number: 2
-    update-alternatives: using /usr/bin/python3.5 to provide /usr/bin/python (python) in manual mode
-    root@ubuntu:/home/bogyeong# python --version
-    Python 3.5.2
+          Selection    Path                Priority   Status
+        ------------------------------------------------------------
+        * 0            /usr/bin/python2.7   2         auto mode
+          1            /usr/bin/python2.7   2         manual mode
+          2            /usr/bin/python3.5   1         manual mode
+
+        Press <enter> to keep the current choice[*], or type selection number: 2
+        update-alternatives: using /usr/bin/python3.5 to provide /usr/bin/python (python) in manual mode
+        root@ubuntu:/home/bogyeong# python --version
+        Python 3.5.2
 
 
 # Goooooooooooooood
