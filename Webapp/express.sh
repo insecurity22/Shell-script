@@ -1,5 +1,6 @@
 #! /bin/bash
 # Install express
+# After installing nodejs, please install express.
 
 echo -e "\n\nInstall express\n\n"
 sudo npm install -g express-generator
