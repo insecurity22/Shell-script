@@ -54,8 +54,10 @@ fi
 # Check page
 # localhost:3001
 
-# 
-# https://blueshw.github.io/2017/06/20/create-react-app/
-#
+# Next
+# Configure the Proxy
+
+# ↓
 # https://daveceddia.com/create-react-app-express-backend/
+# https://blueshw.github.io/2017/06/20/create-react-app/
 # https://blog.cloudboost.io/react-express-the-nodejs-way-of-reacting-and-expressing-7a518e4da3
