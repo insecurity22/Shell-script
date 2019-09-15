@@ -39,7 +39,7 @@ then
     echo -e "\n3. Install \"create-react-app\" module."
     npm install -g create-react-app
 
-    echo -e "\n--> create react app"
+    echo -e "\n--> create react app project"
     create-react-app frontend # create the React app inside the react-backend folder
 
     # -----------------------------------------------
@@ -52,7 +52,7 @@ else
 fi    
 
 # Check page
-# localhost:3000
+# localhost:3001
 
 # 
 # https://blueshw.github.io/2017/06/20/create-react-app/
