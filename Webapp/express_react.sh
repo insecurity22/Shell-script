@@ -33,7 +33,7 @@ echo -e ": create-react-app 3000 port"
 echo -e "So we have to change express port. ex) 3000 -> 3001\n"
 echo -e "If you change port number, Please enter \"yes\""
 read yes
-if [ ${yes} == 'y' || ${yes} == 'yes' ]
+if [ ${yes} == 'y' -o ${yes} == 'yes' ]
 then
     # -----------------------------------------------
     echo -e "3. Install \"create-react-app\" module."
