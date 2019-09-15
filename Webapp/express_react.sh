@@ -36,10 +36,10 @@ read yes
 if [ ${yes} == 'y' -o ${yes} == 'yes' ]
 then
     # -----------------------------------------------
-    echo -e "3. Install \"create-react-app\" module."
+    echo -e "\n3. Install \"create-react-app\" module."
     npm install -g create-react-app
 
-    echo -e "\n--> create react app\n"
+    echo -e "\n--> create react app"
     create-react-app frontend # create the React app inside the react-backend folder
 
     # -----------------------------------------------
