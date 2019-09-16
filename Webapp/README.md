@@ -1,4 +1,4 @@
-# Order of installation
+# Order
 nodejs<br>
 mongodb<br>
 atom<br>
