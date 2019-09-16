@@ -1,1 +1,10 @@
 https://react.semantic-ui.com/theming/
+
+
+backend/frontend/src/semantic-ui/site/globals/site.variables
+
+/*******************************
+     User Global Variables
+*******************************/
+
+here
