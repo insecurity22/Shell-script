@@ -55,6 +55,7 @@ else
 fi    
 
 # Check page
+# localhost:3000
 # localhost:3001
 
 # Next
