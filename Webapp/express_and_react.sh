@@ -44,8 +44,11 @@ then
 
     # -----------------------------------------------
 
-    echo -e "express.js project start"
-    npm start
+    # echo -e "express.js project start"
+    # npm start
+    # echo -e "react.js project start"
+    # cd frontend
+    # npm start
 else
     echo -e "Please enter again"
     exit
