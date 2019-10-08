@@ -1,1 +1,9 @@
 npm install mongoose
+
+# gitlab
+# git clone address
+# ssh: connect to host ...
+# fatal: Could not read from remote repository.
+# ssh-keygen
+# cat ~/.ssh/id_rsa.pub
+# https://webclub.tistory.com/97
