@@ -2,6 +2,7 @@
 # After installing nodejs, please install express.
 
 # -----------------------------------------------
+cd ../..
 echo -e "\n\n1. Create our express application for the backend.\n"
 
 echo -e "--> Install express.\n"
