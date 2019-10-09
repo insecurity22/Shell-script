@@ -9,16 +9,15 @@ npm uninstall semantic-ui semantic-ui-css
 echo -e "Install required dependencies"
 npm install @craco/craco @semantic-ui-react/craco-less semantic-ui-less --save-dev
 
-echo -e "1. Please update package.json file"
-echo -e "package.json"
-echo -e " {"
+echo -e "1. Please update \"package.json\" file"
+echo -e "{"
 echo -e "     \"scripts\": {"
-echo -e "        \"start\": \"craco start\",
-echo -e "        \"build\": \"craco build\",
-echo -e "        \"test\": \"craco test\",
+echo -e "        \"start\": \"craco start\,"
+echo -e "        \"build\": \"craco build\,"
+echo -e "        \"test\": \"craco test\,"
 echo -e "        \"eject\": \"craco eject\"
-echo -e "      }
-echo -e " }"
+echo -e "      }"
+echo -e "}"
 
 echo -e "\n2. Create craco.config.js"
 echo -e " module.exports = {"
