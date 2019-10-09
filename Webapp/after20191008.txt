@@ -1,6 +1,6 @@
 # *** You can use react-router-dom modules. <Router> ... </Router>
 # cd frontend folder path
-npm install react-router-dom
+npm install react-router-dom --save
 
 # *** MongoDB
 npm install mongoose
