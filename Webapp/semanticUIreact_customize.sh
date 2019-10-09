@@ -2,6 +2,7 @@
 
 # -------> https://react.semantic-ui.com/theming/
 
+cd ../../
 echo -e "Remove existing styles"
 npm uninstall semantic-ui semantic-ui-css
 
