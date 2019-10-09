@@ -36,6 +36,18 @@ else
     exit
 fi
 
+echo -e "You also should update \"./src/semantic-ui/theme.config\""
+echo -e "/*******************************"
+echo -e "            Folders"
+echo -e "*******************************/\n"
+
+echo -e "@themesFolder : 'themes';"
+echo -e "@siteFolder  : '../../src/semantic-ui/site';"
+
+echo -e "@import (multiple) "~semantic-ui-less/theme.less";"
+echo -e "@fontPath : '../../../themes/@{theme}/assets/fonts';"
+
+
 # ----> Path
 # https://github.com/Semantic-Org/example-github/tree/master/semantic/src/themes/github
 # backend/frontend/src/semantic-ui/site/...
