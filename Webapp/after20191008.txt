@@ -1,18 +1,21 @@
-# *** You can use react-router-dom modules. <Router> ... </Router>
-# cd frontend folder path
-npm install react-router-dom --save
+*** You can use react-router-dom modules. <Router> ... </Router>
+$ cd frontend folder path
+$ npm install react-router --save       # not react-router-dom
 
-# *** MongoDB
-npm install mongoose
+*** MongoDB
+$ npm install mongoose
 
-# *** Gitlab
-# git clone ssh_address
-# ssh: connect to host ...
-# fatal: Could not read from remote repository.
-# ssh-keygen
-# cat ~/.ssh/id_rsa.pub
-# https://webclub.tistory.com/97
-# -----> No
-# 
-# git clone https_address
-# -----> Yes
+*** Gitlab
+$ git clone ssh_address
+ssh: connect to host ...
+fatal: Could not read from remote repository.
+
+$ ssh-keygen
+$ cat ~/.ssh/id_rsa.pub
+-----> https://webclub.tistory.com/97
+-----> No
+
+$ git clone https_address
+-----> Yes
+
+To HTTPS
