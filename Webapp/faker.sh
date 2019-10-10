@@ -1,7 +1,7 @@
 #! /bin/bash
-# Install fake
+# Install faker
 
-echo -e "\n\nInstall Atom\n"
+echo -e "\n\nInstall faker\n"
 npm install faker --save
 
 
