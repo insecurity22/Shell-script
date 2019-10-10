@@ -2,7 +2,7 @@
 # Install fake
 
 echo -e "\n\nInstall Atom\n"
-npm install fake --save
+npm install faker --save
 
 
 # usage
