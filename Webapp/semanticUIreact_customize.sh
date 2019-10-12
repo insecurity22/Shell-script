@@ -28,7 +28,7 @@ echo -e "If you change package.json, and create craco.config.js, Please enter \"
 read yes
 if [ ${yes} == 'y' -o ${yes} == 'yes' ]
 then
-    npm install semantic-ui-react --save-dev
+    npm install semantic-ui-react --save
     npx @semantic-ui-react/bootstrap
     echo -e "Created \"./src/semantic-ui\" folder"
 else
