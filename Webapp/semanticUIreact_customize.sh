@@ -7,7 +7,7 @@ echo -e "Remove existing styles"
 npm uninstall semantic-ui semantic-ui-css
 
 echo -e "Install required dependencies"
-npm install @craco/craco @semantic-ui-react/craco-less semantic-ui-less --save-dev
+npm install @craco/craco @semantic-ui-react/craco-less semantic-ui-less --save
 
 echo -e "1. Please update \"package.json\" file"
 echo -e "{"
