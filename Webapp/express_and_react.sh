@@ -13,24 +13,23 @@ echo "Please enter jade or ejs template : "
 read template
 if [ ${template} == 'jade' ]
 then
-    express react-backend
+    express express-backend
 elif [ ${template} == 'ejs' ]
 then
-    express --ejs react-backend
+    express --ejs express-backend
 else
     echo -e "Please enter again"
     exit
 fi
 
 echo -e "\n--> Install related express file\n"
-cd react-backend
+cd express-backend
 npm install
 # -----------------------------------------------
 
-echo -e "2. Please press enter after change \"port number\" in \"./bin/www\""
-echo -e "  Because of the crash."
-echo -e ": express 3000 port"
-echo -e ": create-react-app 3000 port"
+echo -e "2. Please press enter after change \"port number\" in \"./bin/www\" Because of the crash."
+echo -e ": Express 3000 port"
+echo -e ": React 3000 port"
 echo -e "So we have to change express port. ex) 3000 -> 3001\n"
 echo -e "If you change port number, Please enter \"yes\""
 read yes
@@ -41,7 +40,7 @@ then
     npm install -g create-react-app
 
     echo -e "\n--> create react app project"
-    create-react-app frontend # create the React app inside the react-backend folder
+    create-react-app frontend # create the React app inside the express-backend folder
 
     # -----------------------------------------------
 
@@ -59,8 +58,16 @@ fi
 # localhost:3000
 # localhost:3001
 
-# Next
-# Configure the Proxy
+# Next, Proxy setting
+#
+# /frontend/package.json
+#  "scripts": {
+#    "start": "craco start",
+#    "build": "craco build",
+#    "test": "craco test",
+#    "eject": "craco eject"
+#  },
+#  "proxy": "http://localhost:3001", <-----
 
 # ↓
 # https://daveceddia.com/create-react-app-express-backend/
