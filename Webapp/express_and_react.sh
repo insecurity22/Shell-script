@@ -54,11 +54,7 @@ else
     exit
 fi    
 
-# Check page
-# localhost:3000
-# localhost:3001
-
-# Next, Proxy setting
+# 2. Proxy setting
 #
 # /frontend/package.json
 #  "scripts": {
@@ -68,6 +64,16 @@ fi
 #    "eject": "craco eject"
 #  },
 #  "proxy": "http://localhost:3001", <-----
+
+# 3. Check page
+# 1) 
+# cd express-backend
+# npm start
+# localhost:3000 
+# 2)
+# cd frontend
+# npm start
+# localhost:3001
 
 # ↓
 # https://daveceddia.com/create-react-app-express-backend/
