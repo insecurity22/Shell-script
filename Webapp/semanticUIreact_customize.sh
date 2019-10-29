@@ -48,7 +48,6 @@ echo -e "@import (multiple) \"~semantic-ui-less/theme.less\";"
 echo -e "@fontPath : '../../../themes/@{theme}/assets/fonts';"
 
 
-# https://react.semantic-ui.com/theming
 # ----> Path
 # https://github.com/Semantic-Org/example-github/tree/master/semantic/src/themes/github
 # backend/frontend/src/semantic-ui/site/...
