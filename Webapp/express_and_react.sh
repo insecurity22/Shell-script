@@ -67,13 +67,13 @@ fi
 
 # 3. Check page
 # 1) 
-# cd express-backend
-# npm start
-# localhost:3000 
+#   cd express-backend
+#   npm start
+#   localhost:3000 
 # 2)
-# cd frontend
-# npm start
-# localhost:3001
+#   cd frontend
+#   npm start
+#   localhost:3001
 
 # ↓
 # https://daveceddia.com/create-react-app-express-backend/
