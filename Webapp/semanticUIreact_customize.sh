@@ -19,7 +19,7 @@ echo -e "        \"eject\": \"craco eject\""
 echo -e "      }"
 echo -e "}"
 
-echo -e "\n2. Create craco.config.js"
+echo -e "\n2. Create /frontend/craco.config.js"
 echo -e " module.exports = {"
 echo -e "  plugins: [{ plugin: require('@semantic-ui-react/craco-less') }],"
 echo -e " }\n"
