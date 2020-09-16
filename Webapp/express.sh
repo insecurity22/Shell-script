@@ -30,7 +30,7 @@ echo -e ": Express 3000 port"
 echo -e ": React 3000 port"
 echo -e "So you have to change express port. ex) express 3000 -> 3001\n"
 
-echo -e ">> If you change port number, please enter \"yes\""
+echo -e "> If you change port number, please enter \"yes\""
 read yes
 if [ ${yes} == 'y' -o ${yes} == 'yes' ]
 then
