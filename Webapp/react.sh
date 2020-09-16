@@ -10,5 +10,5 @@ echo -e "\n\n2. Create react app project."
 create-react-app react_frontend
 
 # React.js start
-./react_frontend
+cd react_frontend
 npm start
