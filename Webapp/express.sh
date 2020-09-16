@@ -25,7 +25,7 @@ echo -e "\n3. Install related express files.\n"
 cd express_backend
 npm install
 
-echo -e "\n4. Please press after change \"Port Number" in \"./bin/www\" because of the crash."
+echo -e "\n4. Please press after change \"Port Number\" in \"./bin/www\" because of the crash."
 echo -e ": Express 3000 port"
 echo -e ": React 3000 port"
 echo -e "So you have to change express port. ex) express 3000 -> 3001\n"
