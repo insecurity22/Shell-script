@@ -37,7 +37,7 @@ then
     echo -e "express.js start"
     npm start
 
-# 2. Proxy setting
+# 5. Proxy setting
 #
 # /frontend/package.json
 #   "scripts": {
@@ -48,7 +48,7 @@ then
 #   },
 #   "proxy": "http://localhost:3001", <----
 
-# 3. Check page
+# 6. Check page
 # 1)
 #   cd express_backend
 #   npm start
