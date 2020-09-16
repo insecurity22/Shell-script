@@ -2,11 +2,9 @@
 nodejs<br>
 mongodb or mysql<br>
 atom<br>
-<br>
 
 react<br>
 express<br>
-<br>
 
 semanticUIreact_customize ---> install craco, semantic-ui-react, semantic-ui-less<br>
 <br>
