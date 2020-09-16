@@ -1,7 +1,7 @@
 #! /bin/bash
 # After installing nodejs, please install express.
 
-cd react_frontend
+cd ../../react_frontend
 
 # EXPRESS
 echo -e "1. Install express-generator module."
