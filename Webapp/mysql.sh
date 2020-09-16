@@ -8,5 +8,5 @@ sudo apt-get install mysql-server
 
 service mysql start
 
-echo -e "If you want to start mysql, Please enter the "mysql -u root -p password" command"
+echo -e "If you want to start mysql, Please enter the "mysql -u root -p" command"
 # mysql -u root -p
