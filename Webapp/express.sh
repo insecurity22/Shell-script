@@ -36,6 +36,7 @@ if [ ${yes} == 'y' -o ${yes} == 'yes' ]
 then
     echo -e "express.js start"
     npm start
+fi
 
 # 5. Proxy setting
 #
