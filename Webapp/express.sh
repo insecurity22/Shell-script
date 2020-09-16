@@ -38,16 +38,16 @@ then
     npm start
 fi
 
-# 5. Proxy setting
+# 5. Proxy setting ( 서버 간 데이터 주고 받기 )
 #
 # /frontend/package.json
-#   "scripts": {
-#       "start": "craco start",
-#       "build": "craco build",
-#       "test": "craco test",
-#       "eject": "craco eject"
-#   },
-#   "proxy": "http://localhost:3001", <----
+#  "scripts": {
+#    "start": "react-scripts start",
+#    "build": "react-scripts build",
+#    "test": "react-scripts test",
+#    "eject": "react-scripts eject"
+#  },
+#  "proxy": "http://localhost:3001", <-----
 
 # 6. Check page
 # 1)
@@ -64,3 +64,16 @@ fi
 # https://daveceddia.com/create-react-app-express-backend/
 # https://blueshw.github.io/2017/06/20/create-react-app/
 # https://blog.cloudboost.io/react-express-the-nodejs-way-of-reacting-and-expressing-7a518e4da3
+
+
+
+
+# ------------ NO, Backup
+# /frontend/package.json
+#   "scripts": {
+#       "start": "craco start",
+#       "build": "craco build",
+#       "test": "craco test",
+#       "eject": "craco eject"
+#   },
+#   "proxy": "http://localhost:3001", <----
