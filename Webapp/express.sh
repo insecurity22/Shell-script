@@ -53,7 +53,7 @@ fi
 #   localhost:3000
 
 # 2)
-# cd frontend
+# cd react_frontend
 # npm start
 # localhost:3001
 
