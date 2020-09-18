@@ -7,8 +7,8 @@ echo -e "\n\n1. Install create-react-app."
 npm install -g create-react-app
 
 echo -e "\n\n2. Create react app project."
-create-react-app react_frontend
+create-react-app client
 
 # React.js start
-cd react_frontend
+cd client
 npm start
