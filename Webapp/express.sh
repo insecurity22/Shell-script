@@ -39,7 +39,6 @@ then
 fi
 
 # 5. Proxy setting ( 서버 간 데이터 주고 받기 )
-#
 # /frontend/package.json
 #  "scripts": {
 #    "start": "react-scripts start",
