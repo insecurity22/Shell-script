@@ -6,6 +6,6 @@ sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
 sudo apt-get install nodejs
 
-echo -e "\n\nCheck\n\n"
+echo -e "\nCheck nodejs version and npm version\n"
 node -v
 npm -v
